@@ -1,0 +1,66 @@
+[
+  {
+    "name" : "Kursi Kantor",
+    "price" : 2000000,
+    "stock" : 23,
+    "imageUrl": "http://arah.in/gambarKursi1",
+    "description" : "Ada headrest/sandaran kepala Sistem hidrolik (bisa naik dan turun) Arm rest sandaran tangan Rotasi 360 derajat dengan dilengkapi roda lebar sandaran tangan = 60 CM lebar sandaran pungung = 46 CM Lebar dudukan = 46CM dalam dudukan = 48cm Tinggi sandaran dari jok 68 cm kursi dari lantai rendah min = 45CM kursi dari lantai tinggi max = 53CM Spesifikasi : Hidrolik. KAKI BESI CROM ",
+    "CategoryId" : 1 
+  },
+  {
+    "name" : "Kursi Gaming",
+    "price" : 12000000,
+    "stock" : 21,
+    "imageUrl": "http://arah.in/kursigaming",
+    "description" : "Desain desain Datang untuk menenangkan gamer sejati Kursi dirancang agar pas dengan tubuh pengguna, Membantu mengurangi gejala kelelahan sakit punggung dan leher, bentuk desain kursi Terinspirasi dari jok balap Rangka baja terbuat dari bahan yang bagus, tahan lama dan kuat. Ukuran produk, tinggi dari lantai Beban hingga 100kg.",
+    "CategoryId" : 1 
+  },
+  {
+    "name" : "lemari pakaian",
+    "price" : 1000000,
+    "stock" : 13,
+    "imageUrl": "http://arah.in/lemariPakaian",
+    "description" : "Tipe : 20 LP 305 Pilihan Warna: Putih & Hitam Ukuran Produk: 120 x 42  182 cm Bahan: Partikel Board",
+    "CategoryId" : 2
+  },
+  {
+    "name" : "lemari piring",
+    "price" : 1400000,
+    "stock" : 11,
+    "imageUrl": "http://arah.in/lemariPiring",
+    "description" : "SEMUA KELILING.. TULANG MEMAKAI ALUMUNIUM KOTAK TEBAL TUTUP PALING ATAS MEMAKAI KACA RIBEN TEBAL TUTUP BELAKANG MEMAKAI PLAT ALUMUNIUM ALAS / RAK PALING BAWAH BAGIAN DALEM MEMAKAI KERAMIK",
+    "CategoryId" : 2
+  },
+  {
+    "name" : "Kasur Lipat",
+    "price" : 300000,
+    "stock" : 3,
+    "imageUrl": "http://arah.in/kasurLipat",
+    "description" : "Kasur lipat doraemon nyampan dipakainnya",
+    "CategoryId" : 3
+  },
+  {
+    "name" : "Meja Lipat",
+    "price" : 50000,
+    "stock" : 60,
+    "imageUrl": "http://arah.in/mejalipat",
+    "description" : " Meja lipat serba guna, cocok untuk dijadikan sebagai meja laptop, meja belajar, dan lain sebagainya",
+    "CategoryId" : 4
+  },
+  {
+    "name" : "Meja kantor",
+    "price" : 3550000,
+    "stock" : 6,
+    "imageUrl": "http://arah.in/mejakantor",
+    "description" : " Meja kantor 1/2 biro termurah MTS 120 bahan partikelboard tebal Kualitas terjamin Sistem knockdow Ada petunjuk rakit ada kunci",
+    "CategoryId" : 4
+  },
+  {
+    "name" : "Kloset Jongkok",
+    "price" : 350000,
+    "stock" : 2,
+    "imageUrl": "http://arah.in/klosesJOngkok",
+    "description" : " Complete set termasuk:Body closet, water tanki,jet shower,selang shower, stop kran,pipa air",
+    "CategoryId" : 5
+  }
+]

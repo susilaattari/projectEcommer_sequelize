@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script>
+    function showAlert() {
+      var myText = "Item berhasil masuk keranjang";
+      alert (myText);
+    }
+    </script>
+  <title>Detail Product</title>
+</head>
+<body>
+  <%- include("./partial/navbar.ejs") %>
+  <div class="container">
+    <div>
+      <h1> <%= productById.name %>  </h1>
+    </div>
+    <div>
+      <img src="<%= productById.imageUrl %> " alt="<%= productById.name %> " width="500" height="600">
+    </div>
+    <div>
+      <h6><%= productById.Category.name %></h6>
+    </div>
+    <div>
+      <h3><%= formatRupiah(productById.price) %></h3>
+    </div>
+    <div>
+      <h5><%= productById.description %></h5>   
+    </div>
+    <div>
+      <h6>Stock Barang : <%= productById.stock %></h6>
+    </div>
+    <div>
+      <form action="/cart" method="post">
+        <input id="test" type="hidden" name="ProductId" value="<%= productById.id %>">
+        <button class="btn btn-primary" type="submit" onclick="showAlert()">Add To Cart</button>
+      </form>
+      <a class="btn btn-warning" href="/product/<%= productById.id %>/edit">Edit</a>
+      <a class="btn btn-danger" href="/product/<%= productById.id %>/delete">Delete</a>
+    </div>
+  </div>
+</body>
+</html>

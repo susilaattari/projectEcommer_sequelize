@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>PerabotDia - Product</title>
+</head>
+<body>
+  <%- include("./partial/navbar.ejs") %> 
+  <div class="container">
+    <div style="color: red">
+      <%= errors %> 
+    </div>
+    <div>
+      <h1>Add New Product</h1>
+    </div>
+    <div>
+      <form action="" method="post">
+        <label for="name">Product Name :</label><br>
+        <input type="text" id="name" name="name" placeholder="insert product name here"><br>
+        <label for="price">Price :</label><br>
+        <input type="number" id="price" name="price" placeholder="insert product price here"><br>
+        <label for="stock">Stock :</label><br>
+        <input type="number" id="stock" name="stock" placeholder="insert product stock here"><br>
+        <label for="imageUrl">Image Url :</label><br>
+        <input type="text" id="imageUrl" name="imageUrl" placeholder="insert product image here"><br>
+        <label for="description">Description :</label><br>
+        <textarea id="description" name="description"></textarea><br>
+        <label for="CategoryId">Choose a category:</label><br>
+        <select name="CategoryId" id="CategoryId">
+          <% dataCategory.forEach(el => { %>
+            <option value="<%= el.id %> ">  <%= el.name %>  </option>
+          <% }) %> 
+        </select><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+    </div>
+  </div>
+</body>
+</html>

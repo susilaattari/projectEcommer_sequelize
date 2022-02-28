@@ -1,0 +1,17 @@
+[
+  {
+    "UserId": 1,
+    "ProductId": 1,
+    "status": "Uncheckout"
+  },
+  {
+    "UserId": 1,
+    "ProductId": 3,
+    "status": "Uncheckout"
+  },
+  {
+    "UserId": 1,
+    "ProductId": 5,
+    "status": "Uncheckout"
+  }
+]
